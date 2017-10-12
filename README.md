@@ -1,7 +1,6 @@
-# recdb
+# Grandview High School Advanced Topics in Computer Science 2017-2018
+**recdb**: A Java web app for making media recommendations based on multiple factors.
 
-Grandview High School Senior Projects/Advanced Topics in Computer Science 2017-2018
+This project is completely open source and unmonetized.
 
-A Java web app for making media recommendations based on multiple factors.
-
-See /info for more info.
+See /info for project details.
