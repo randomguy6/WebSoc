@@ -1,6 +1,7 @@
-﻿* {
+* {
     box-sizing: border-box;
   }
 img{
-    margins: 0 auto;
+    display: block;
+    margin: auto;
 }
