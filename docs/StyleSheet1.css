@@ -18,11 +18,11 @@ h2{
 }
 .theThings a{
     background: rgb(196, 191, 191);
-    color: rgb(0,0,0);
+    color: rgb(255,255,255);
 }
 .theThings a:hover{
     background: rgb(255,255,255);
-    color: rgb(255,255,255);
+    color: rgb(0,0,0;
 }
 table{
     text-aligh: center;
