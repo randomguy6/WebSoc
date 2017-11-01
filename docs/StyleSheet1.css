@@ -47,6 +47,7 @@ a{
     color: rgb(0,0,0);
     text-decoration: underline;
 }
-table{
-    text-align: center;
+.tableHead{
+    text-decoration: underline;
+    font-weight: bold;
 }
