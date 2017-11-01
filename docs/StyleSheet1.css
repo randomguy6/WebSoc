@@ -23,7 +23,7 @@ a{
 .theThings a{
     background: rgb(196, 191, 191);
     color: rgb(0,0,0);
-    margin: 10px 20px;
+    margin: 10px;
 }
 .theThings a:hover{
     background: rgb(255,255,255);
