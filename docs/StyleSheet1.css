@@ -6,8 +6,8 @@ body{
 }
 img{
     display: block;
-    margin: 0px 0px 5px 0px;
-    margin: auto;
+    margin: 0px 0px 5px 0px auto;
+    /*margin: auto;*/
 }
 h2{
     font-family: 'Courier New', 'Courier';
