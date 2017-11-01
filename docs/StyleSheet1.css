@@ -19,7 +19,7 @@ a{
 .theThings{
     text-align: center;
     font-size: 20px;
-    padding: 10px 50px;
+    margin: 10px 50px;
 }
 .theThings a{
     background: rgb(196, 191, 191);
