@@ -11,6 +11,7 @@ img{
 h2{
     font-family: 'Courier New', 'Courier';
     text-align: center;
+    text-decoration: underline;
 }
 a{
     text-decoration: none;
