@@ -185,8 +185,17 @@
             the Set interface. They use Hash Sets in the example code so that they can avoid multiple duplicates of the same device, 
             which would take up more space in servers if they used ArrayList even though it would have also worked. The rest of the code
             also contains 3 classes: Device, DeviseSessionHandler, and DeviceWebsocketServer, which by the time I understand how they did it will give me an idea on how to manage a websocket connection and the devices in the final product. Device is used to give the server 
-            information on what a device is and what information it has such as name, status, and description. The other classes are 
-            hard to explain right now because they used many libraries to make the code work so I have to research on how those 
+            information on what a device is and what information it has such as name, status, and description.</p> 
+    
+    <img src = "PicNein.png" title = "The device class">
+        
+        <p>As you can see from the screenshots of the program running from the last journal entry, we ask the user to enter a device and information
+            such as its name, applience, and description of that particular device. In the code above, we make a Device class so that computers can understand what a Device is. 
+            It carries information such as the device id, name , status, type, and description that are saved as variables. In order to 
+            retrieve that information like those variables, we make getter methods (or a function that returns the variable) so that the computer can show that 
+            information back to the user.</p>
+    
+        <p>The other classes are hard to explain right now because they used many libraries to make the code work so I have to research on how those 
             libraries are used and what they do. I also encountered JSON while looking at the code and was used throughout the code in 
             Java and JavaScript. JSON turns out to be a language used in JavaScript that specializes in making objects more efficient 
             than XML, another programming language that was used before JSON for creating objects and transfering data, and transferring
