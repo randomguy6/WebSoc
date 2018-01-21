@@ -193,20 +193,29 @@
             such as its name, applience, and description of that particular device. In the code above, we make a Device class so that computers can understand what a Device is. 
             It carries information such as the device id, name , status, type, and description that are saved as variables. In order to 
             retrieve that information like those variables, we make getter methods (or a function that returns the variable) so that the computer can show that 
-            information back to the user.</p>
+            information back to the user. The other classes are hard to explain right now because they used many libraries to make the code work so I have to research on how those 
+            libraries are used and what they do.</p>
     
-        <p>The other classes are hard to explain right now because they used many libraries to make the code work so I have to research on how those 
-            libraries are used and what they do. I also encountered JSON while looking at the code and was used throughout the code in 
+        <p> I also encountered JSON while looking at the code and was used throughout the code in 
             Java and JavaScript. JSON turns out to be a language used in JavaScript that specializes in making objects more efficient 
             than XML, another programming language that was used before JSON for creating objects and transfering data, and transferring
             information from the website to servers or computers more efficiently than XML.<sup>[10]</sup> In order to figure out how JSON is used in 
             Java and JavaScript, I have to know JavaScript, which will help with writing my own JavaScript code for the project instead 
             of making basic code. I also used Codecademy to learn JavaScript. While learning JavaScript, I realize that JavaScript and 
-            Java are <b>similar</b> in terms of syntax, writing variables and functions JavaScript is more web based. For example when 
-            we make variables, we start off by saying that this is a variable - in Java we have to declare if the variable should be 
-            accessible from the class or anywhere and what type of variable it will be such as an integer or a string (letters and words)
-            whereas in JavaScript we have to tell it if the variable is a constant and can be slightly changed (called “const” variables)
-            or a concrete variable that will never change (called “let” variables) <sup>[7]</sup>.</p>
+            Java are <b>different</b> in terms of how each language is used and how some of syntax and functions work. For example, when 
+            we make variables in Java, we start off by saying that the variable should be public variables or private variables (accessible from within the class or anywhere else outside the class) 
+            and what type of variable it is going to be such as an integer or a string (meaning letters and words). In JavaScript, we have to declare if the variable is a constant and can be slightly changed (called “const” variables)
+            or a concrete variable that will never change (called “let” variables) <sup>[7]</sup>. This was important in how I should write code in JavaScrpit because it more flexible in what I can do and not do whereas Java is more strict and picky, which can be a good thing for programmers since we don't have to worry about any coding logic errors.</p>
+        <p> After I learned some of the basics of JavaScript, I started looking though the example code to see how they used websockets.</p>
+    <img src  = "Pic10.png" title = "The juicy part">
+    <p>In the second line of code above, we called a var (which means variable that can store anything from integers to objects) named socket
+        that stores a Websocket object. This establishes a connection between browser and server and handles all the work when we have to transfer data from the
+        browser to the server and when it needs to retrieve information from server to the browser.</p>
+    <img src = "Pic11.png" title = "addDevice function">
+    <p>The code above is a function when the user want to add a device to their list that requires three pieces of information from the user: name of the device, type of device, and a description. It then saves that information into an object called 'DeviceAction'.
+        We can see that 'socket' is going to send information to the server. However, it requires a string to actually run the function and we want to send the object 'DeviceAction'. 
+        JSON is there so that it can make that object that the user inputs into a string so that socket can send DeviceAction to the server.</p>
+    <p>The rest of the code is the same idea as that piece of code, except there are functions when the user want to remove, change, or print the device onto the screen.</p>
      <hr />
     <h2>Reflections</h2>
     <p>I am progressing through my timeline as normal, except I didn't learn enough JavaScript to understand the code and that is also 
