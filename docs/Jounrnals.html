@@ -281,6 +281,7 @@ So far the program can only get information from the server and send information
     <p> I got the program to work. Now I have to have to put it into GitHub and see if it works, which I don’t think might work since I didn’t set up any servers or some sort of communication from the computer to a server on GitHub. However, I have all of March to write and debug code if needed so I should be able to finish on time. </p>
     </body>
 <hr />
+<hr />
 <h1>Journal for March</h1>
         <h2>Goals</h2>
         <li>Figure out how to send Netbeans project to GitHub by going through forums and GitHub documentation</li>
@@ -290,6 +291,7 @@ So far the program can only get information from the server and send information
         <li>Research a new web hoster to launch the project to by looking at different services that offer Java and glassfish support</li>
     <li>Figure out how to save information through HashSets than ArrayLists and how they are arranged so that browser can go back and get that information by looking up documentation of HashSets or print the HashSet on the output</li>
     <li>Figure out why some information isn't displayed on the screen by debugging the program</li>
+    <hr />
     <h2>Accomplishments</h2>
     <li>Chose to demo the project on computer rather than putting it on the web</li>
     <li>Got to make code that saves information to the server instead of just using the information to display information</li>
@@ -297,11 +299,13 @@ So far the program can only get information from the server and send information
     <li>Debugged the project and fixed any errors that appeared</li>
     <li>Finished the project</li>
     <img src = "Final Project.png">
-<h2>What I did I learn?<h2>    
+    <hr />
+<h2>What I did I learn?</h2>    
     <p>This month was spent trying to put my project on the web. However I wasn’t able to do that because GitHub doesn’t support Java files. So I had to find another web host that supports Java and glassfish servers. I ended up finding services that only support Apache tomcat or they were to expensive ranging from almost $40 per month or $100 a year. So I decided to demo the project on my own computer rather than putting it up to the public domain. Also I ran into some issues earlier where the project send information to the server. I initially used ArrayList since I knew how to use them, but when I went through the tutorial code, they used HashSets. I looked up how they are used and what situations they are used for.</p>
     <p>When I switched from ArrayList to HashSets, I ran into a couple problems. I thought I could use HashSets like ArrayLists because they are used in a similar manner. Any information I gave to the browser won’t come back. I tried reading the documentation and see if I messed up with HashSets. I changed a few things in my code even though that may not be the problem. It fixed a problem where all the java code did was change the information it was given when it should have saved it and then send back that information back to the browser. But that information still couldn’t be displayed onto the screen. I debugged the code to see why the information isn’t coming back. I found out when the information is sent to the server, it wasn’t getting received back. So I had to debug the java code and see if all the information that the server received is processing that information properly. I found out that when the server isn’t interpreting some functions properly. So I had to rewrite some parts of the code so that the server can interpret some parts of the code properly. Once I did that the code started working. Then I ran into another issue. Whenever someone selects their ram capacity, it would always return 12 instead of whatever they wanted that isn’t 12. Initially I had the javascript grab the selected option under the id named “rCap” on the otions when it should have grabbed the value from the drop down option.</p>
     <p>In the code above I had the options named “”rCap” and the dropdown menu named “ramCapacity”. Before I made changes to the code, I had it grab the value under the id “rCap”. Though there are multiple options that has the id “rCap”, the code will always run top to bottom, so it will grab the first option among those options, which is 12. I changed the code so that it grabs the value “ramCapacity”. This took me a while to get because other people use JQuery, another programming language similar to JavaScript, to get the value of anything in forms. Since I have no knowledge of JQuery, I had to find a way to get that value using JavaScript.</p>
     <p></p>
+    <hr />
     <h2>Reflections</h2>
     <p>I’m done with the project. I finished debugging the project and should not run into any errors. I will continue to debug and run the project periodically to make sure it is running well. Now I have to prepare for final presentations and poster boards. I might make some minor changes to the project that might make it look a bit better.</p>
     </body>
