@@ -283,15 +283,20 @@ So far the program can only get information from the server and send information
 <hr />
 <h1>Journal for March</h1>
         <h2>Goals</h2>
-        <li>Try to figure out what pieces I need to put into the final product by contacting my advisor and researching what those pieces do</li>
-        <li>Create a simple program that submits a form and user can read it back</li>
-        <li>Keep researching what data centers monitor by asking my advisor and online forums</li>
-        <li>Start writing the user interface of the final product by setting up basic text and forms using HTML and styling using CSS</li>
-        <li>Start writing JavaScript code that lets the user see the form by clicking on a button and send that information to the server using WebSockets</li>
-    <li>Research server components and figure out what components that user wants to see and change</li>
-    <li>Make JavaScript code that sends information from browser to the server</li>
-    <li>Keep making code that sends information from the browser to the server</li>
-    <li>Debug JavaScript and Java code to figure out why JavaScript code isn’t transferring data using WebSockets</li>
+        <li>Figure out how to send Netbeans project to GitHub by going through forums and GitHub documentation</li>
+        <li>Figure out how to launch my Java files to the web by researching how other people launched their Java application</li>
+        <li>Keep researching how to launch my Java files to the web by researching how other people launched their Java application and asking my advisor</li>
+        <li>Make code that will save the data onto the server instead of using changing that information</li>
+        <li>Research a new web hoster to launch the project to by looking at different services that offer Java and glassfish support</li>
+    <li>Figure out how to save information through HashSets than ArrayLists and how they are arranged so that browser can go back and get that information by looking up documentation of HashSets or print the HashSet on the output</li>
+    <li>Figure out why some information isn't displayed on the screen by debugging the program</li>
+    <h2>Accomplishments</h2>
+    <li>Chose to demo the project on computer rather than putting it on the web</li>
+    <li>Got to make code that saves information to the server instead of just using the information to display information</li>
+    <li>Figured out how HashSets work and why people use that instead of ArrayList</li>
+    <li>Debugged the project and fixed any errors that appeared</li>
+    <li>Finished the project</li>
+    <img src = "Final Project.png">
 <h2>What I did I learn?<h2>    
     <p>This month was spent trying to put my project on the web. However I wasn’t able to do that because GitHub doesn’t support Java files. So I had to find another web host that supports Java and glassfish servers. I ended up finding services that only support Apache tomcat or they were to expensive ranging from almost $40 per month or $100 a year. So I decided to demo the project on my own computer rather than putting it up to the public domain. Also I ran into some issues earlier where the project send information to the server. I initially used ArrayList since I knew how to use them, but when I went through the tutorial code, they used HashSets. I looked up how they are used and what situations they are used for.</p>
     <p>When I switched from ArrayList to HashSets, I ran into a couple problems. I thought I could use HashSets like ArrayLists because they are used in a similar manner. Any information I gave to the browser won’t come back. I tried reading the documentation and see if I messed up with HashSets. I changed a few things in my code even though that may not be the problem. It fixed a problem where all the java code did was change the information it was given when it should have saved it and then send back that information back to the browser. But that information still couldn’t be displayed onto the screen. I debugged the code to see why the information isn’t coming back. I found out when the information is sent to the server, it wasn’t getting received back. So I had to debug the java code and see if all the information that the server received is processing that information properly. I found out that when the server isn’t interpreting some functions properly. So I had to rewrite some parts of the code so that the server can interpret some parts of the code properly. Once I did that the code started working. Then I ran into another issue. Whenever someone selects their ram capacity, it would always return 12 instead of whatever they wanted that isn’t 12. Initially I had the javascript grab the selected option under the id named “rCap” on the otions when it should have grabbed the value from the drop down option.</p>
